@@ -1,0 +1,1 @@
+A cross platform wage calculator that provides useful information for any delivery driver who receives tips. The program saves the calculations and inputted data using a SQLite Database through the use of the JDBC driver. Programmed in Java in the Eclipse IDE.
