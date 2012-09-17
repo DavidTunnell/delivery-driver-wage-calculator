@@ -14,8 +14,6 @@ public class SQLInteract {
 	PreparedStatement pst = null;
 	ResultSet rs = null;
 	String url = "jdbc:sqlite:src/saveTable.sqlite";
-	// String user = "root";
-	// String password = "root";
 
 	ArrayList<String> sqlCol1 = new ArrayList<String>();
 	ArrayList<String> sqlCol2 = new ArrayList<String>();
@@ -25,12 +23,6 @@ public class SQLInteract {
 	ArrayList<String> sqlCol6 = new ArrayList<String>();
 	ArrayList<String> sqlCol7 = new ArrayList<String>();
 	String sqlArray[][] = new String[7][7];
-
-	/*
-	 * JTextField hourlyWageInput, tipArray[], hourArray[], gasArray[]; JLabel
-	 * totalHours, totalHourlyEarnings, totalTips, weekPay, totalGas,
-	 * avgGasLabel, wageArray[]; String otherArray[];
-	 */
 
 	public SQLInteract() {
 		try {
